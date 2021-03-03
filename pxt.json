@@ -1,0 +1,23 @@
+{
+    "name": "机器人PS2手柄控制及灭火",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "makebit": "github:zhuning239/makebit#a63cb2f33b371262d59d350789d6a011d5041b1f",
+        "ps2-controller": "github:zhuning239/ps2#0d03e18b6a70e66e304a964b47565cc0371feeb2",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
